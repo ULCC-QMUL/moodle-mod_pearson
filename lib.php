@@ -243,9 +243,12 @@ function pearson_get_coursemodule_info($coursemodule) {
  * @return null
  * @TODO: implement this moodle function (if needed)
  **/
+/**
+ * comment out this function per TPLMS-440
 function pearson_user_outline($course, $user, $mod, $basiclti) {
     return null;
 }
+ **/
 
 /**
  * Print a detailed representation of what a user has done with
@@ -254,9 +257,12 @@ function pearson_user_outline($course, $user, $mod, $basiclti) {
  * @return boolean
  * @TODO: implement this moodle function (if needed)
  **/
+/**
+ * comment out this function per TPLMS-440
 function pearson_user_complete($course, $user, $mod, $basiclti) {
     return true;
 }
+ **/
 
 /**
  * Given a course and a time, this module should find recent activity

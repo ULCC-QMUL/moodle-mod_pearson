@@ -12,8 +12,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014061900;
-$plugin->requires  = 2013110500;
+$plugin->version   = 2015051200;
+$plugin->requires  = 2013051408;
 $module->cron      = 0;
 $module->component = 'mod_pearson';
 $module->maturity  = MATURITY_STABLE;

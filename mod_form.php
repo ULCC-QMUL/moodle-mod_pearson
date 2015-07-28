@@ -10,7 +10,7 @@
  */
 
 defined('MOODLE_INTERNAL') || die;
-require_login();
+
 if (isguestuser()) {
 	print_error('guestsarenotallowed');
 }
